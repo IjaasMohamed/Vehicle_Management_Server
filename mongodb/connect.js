@@ -1,4 +1,4 @@
-import mongoose from 'mongoose'; //modelling library for mongo db
+import mongoose from 'mongoose';
 
 const connectDB = (url) => {
   mongoose.set('strictQuery', true);
